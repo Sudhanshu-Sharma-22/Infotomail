@@ -19,7 +19,7 @@ app.add_middleware(
 
 # Initialize Resend
 resend.api_key = os.getenv("RESEND_API_KEY") # Add this key to Render's Env Vars
-receiver_email = "sudhanshu.sharma.work.22@gmail.com"
+receiver_email = "wheelermovers4@gmail.com"
 
 @app.get("/")
 def read_root():
